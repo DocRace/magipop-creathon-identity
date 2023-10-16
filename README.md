@@ -1,3 +1,4 @@
+# magipop Creathon with Linear
 Build a collaborative content platform, magipop Creathon, on Linera SDK to enable large-scale, community-driven co-creation.
 
 Our project, magipop Creathon, is a decentralized content collaboration platform built on Linera. It allows users to collectively create and showcase narrative projects on topics they are passionate about.
