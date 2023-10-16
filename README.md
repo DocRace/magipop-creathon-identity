@@ -38,30 +38,6 @@ What truly distinguishes us is our creative AI assistant. Through the "detail_of
 meanwhile, Our "Creathon" turns this collaborative process into a playful competition. Here, creators engage in exciting challenges, and their creations are showcased on a map, highlighting the interconnections. This layout allows for an easy overview while also providing detailed insights when needed.
 ## magipop Data Chain
 The magipop Map Contract lies at the core of Creathon's unique creative-linking system. By seamlessly integrating the capabilities of blockchain, AI, and collective creativity, we initiate our system with a distinctive contract hash. This sets a secure and transparent foundation for all operations. Capitalizing on the efficiency of layer 2, we ensure that all crucial data is securely stored on-chain, thus safeguarding every creator's contributions. Moreover, the contract serves as a bridge, connecting creators with their innovative concepts. With built-in functions like "post" and "detail_of", creators have the flexibility to share their ideas and retrieve them when needed. This design promotes a lively environment where ideas flow naturally and collaborations emerge effortlessly.
-
-## Contact us
-Race Li
-Telegram @RaceLi
-Twitter @melitosnap
-Email callmerace@hotmail.com
-
-![19821695914817_.pic_hd.jpg](https://cdn.dorahacks.io/static/files/18b36fac21a99febed2bb27419c8afd1.jpg)
-
-
-
-![19831695914840_.pic_hd.jpg](https://cdn.dorahacks.io/static/files/18b36fbd7d11b10c4d443a84f4eb30ba.jpg)
-
-
-
-![16891694622093_.pic.jpg](https://cdn.dorahacks.io/static/files/18b36fc693af2185bd5751344d6a9159.jpg)
-
-
-
-![16881694622093_.pic.jpg](https://cdn.dorahacks.io/static/files/18b36fc98fa72f47d5549dd4f6087466.jpg)
-
-
-
-![Screenshot 2023-10-16 at 13.37.13.png](https://cdn.dorahacks.io/static/files/18b36fd2e1ea05f5eb4592d4848a6bba.png)
 ## Contact us
 Race Li
 Telegram @RaceLi
