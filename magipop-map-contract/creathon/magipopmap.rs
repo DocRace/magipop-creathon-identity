@@ -10,6 +10,18 @@ use linear_sdk::{
 
 use linear_sdk::pack::{Pack, Unpack};
 
+use cyberconnect::get_social_graph;
+
+let graph = get_social_graph(accounts[0].key, accounts[2].key);
+if !graph.is_connected {
+  return Err(ProgramError::Unauthorized);
+}
+
+use lit_protocol::{store, load};
+
+let cid = store(location_data);
+let location = load(cid);
+
 const MAP_PREFIX: &str = "map";
 const LOCATION_PREFIX: &str = "location";
 

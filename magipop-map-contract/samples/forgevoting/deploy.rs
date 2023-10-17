@@ -9,6 +9,13 @@ use linear_sdk::{
     program::encode_initialize_mint_proof
 };
 
+use cyberconnect::get_connections;
+
+for user in get_connections(admin) {
+  let amount = 100;
+  mint_tokens(user, amount);
+}
+
 entrypoint!(process_instruction);
 
 fn process_instruction(

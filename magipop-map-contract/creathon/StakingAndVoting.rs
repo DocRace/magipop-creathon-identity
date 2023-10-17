@@ -13,6 +13,24 @@ use linear_sdk::{
     program::{decode_mint_proof, decode_transfer_proof}
 };
 
+use cyberconnect::get_social_influence;
+
+let influence = get_social_influence(voter);
+let weight = match influence {
+  0..100 => 1, 
+  100..500 => 2,
+  _ => 3
+};
+
+use lit_protocol::{store, load} 
+
+let token_cid = store(token_data);
+let votes_cid = store(votes_data);
+
+let token = load(token_cid);
+let votes = load(votes_cid);
+
+votes[proposal_id][voter] += weight;
 #[derive(Debug, PartialEq, Pack)]
 struct Token {
     pub total_supply: u64,

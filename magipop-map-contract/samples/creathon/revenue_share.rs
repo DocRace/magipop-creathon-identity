@@ -8,6 +8,21 @@ use linear_sdk::{
 
 use linear_sdk::program::{decode_mint_proof, decode_transfer_proof};
 
+use cyberconnect::{
+    get_social_graph,
+};
+
+let graph = get_social_graph(accounts[0].key, accounts[1].key);
+if !graph.is_connected || graph.relationship != RelationshipType::Friend {
+    return Err(ProgramError::Unauthorized)
+}
+
+use lit_protocol::{send_file, receive_file};
+
+let cid = send_file(nft_data, accounts[1].key);
+receive_file(cid, accounts[2].key);
+
+
 #[derive(Debug, PartialEq)] 
 struct NFT {
     pub owner: Pubkey,

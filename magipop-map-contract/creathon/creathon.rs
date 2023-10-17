@@ -1,3 +1,16 @@
+use cyberconnect::{
+    get_social_graph, 
+    get_user_info,
+};
+
+let caller = get_user_info(accounts[1].key)?;
+let is_admin = get_social_graph(creathon.owner, caller)
+    .relationship == RelationshipType::Owner;
+
+if !is_admin {
+    return Err(ProgramError::Unauthorized); 
+}
+
 use linera_sdk::{
     *, 
     account::Account,
@@ -5,6 +18,11 @@ use linera_sdk::{
     entrypoint::ProgramResult,
     msg,
 };
+
+use lit_protocol::{store, load};
+
+let cid = store(accounts[1].data); 
+let content = load(cid);
 
 #[state]
 pub struct Creathon {
