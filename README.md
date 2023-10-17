@@ -1,43 +1,59 @@
-# magipop Creathon with Linear
-Build a collaborative content platform, magipop Creathon, on Linera SDK to enable large-scale, community-driven co-creation.
+# Proof of creativity with magipop Creathon
 
-Our project, magipop Creathon, is a decentralized content collaboration platform built on Linera. It allows users to collectively create and showcase narrative projects on topics they are passionate about.
+Build a collaborative content platform, magipop Creathon, on Lit Protocol and CyberConnect to enable large-scale, community-driven co-creation.
 
-We built magipop Creathon using the Linera SDK and Rust. The Linera SDK allowed us to leverage the protocol's unique multi-chain architecture to efficiently operate each creative project as an independent microchain. Using Rust and WASM, we implemented core components like content storage, version control, and access management.
+Our project, magipop Creathon, is a decentralized content collaboration platform built on Lit Protocol. It allows users to collectively create and showcase narrative projects on topics they are passionate about. 
 
-By taking advantage of Linera's scalability and low latency, magipop Creathon enables seamless collaborative creation across a large community of creators. The microchains make it easy to spin up new projects while benefiting from shared security.
-The platform provides creators with tools to submit ideas, iterate on content, and vote on contributions. The collaborative mapping visualization powered by our AI assistant helps creators understand how their work fits into the broader storyscape.
+We built magipop Creathon using the Lit Protocol SDK and CyberConnect SDK. The Lit Protocol SDK allowed us to leverage the protocol's distributed storage capabilities to efficiently store creative content on IPFS. CyberConnect SDK allowed us to manage creator identities and social connections on-chain. Using Rust and WASM, we implemented core components like content storage, version control, and access management.
 
-## **Synergy & Contribution** 
-1. **The Passion Economy and creator economy spaces**, magipop can **fill this gap** and provide unique value.
-2. magipop will **bring diverse types of creators into the ecosystem**, expanding and enriching the creator community.
-3. Through **positive externality Tokenomic designs**, both internally and externally, magipop will enable creators, not just speculators, to earn real income and **move beyond the Ponzi model**. This aligns with goal of building real utility and value.
-4. magipop Creathon will fully utilize Linear’s **high performance, scalibility and** **AI capabilities** to seamlessly integrate our AI models, enabling smooth idea scoring and evaluation for collaborative creativity.
-5. By focusing on niche passion communities, magipop will bring in **dedicated user bases that are deeply invested and engaged**, further increasing activity and transactions on Linear.
-6. magipop's gamified and transparent approach will **showcase the strengths of blockchain for new user segments**, acting as an onboarding portal for mainstream consumers to experience the benefits of Linear firsthand.
-7. As an innovative model for community-driven co-creation and crowdsourced storytelling, magipop will highlight new use cases that demonstrate Linear's versatility and ability to support next-gen applications.
+By taking advantage of Lit Protocol's distributed storage and CyberConnect's creator identity system, magipop Creathon enables seamless collaborative creation across a large community of creators. Creator identities make it easy to permission new projects while benefiting from an established reputation.
 
-# Vision
+The platform provides creators with tools to submit ideas, iterate on content, and vote on contributions. The collaborative mapping visualization helps creators understand how their work fits into the broader storyscape. 
+
+# Innovations
+
+## Distributed Storage via Lit Protocol
+Lit Protocol's distributed storage allows us to reliably and redundantly store all creative content on IPFS, ensuring its persistence while retaining creator ownership.
+
+## Social Identity and Reputation via CyberConnect 
+CyberConnect enables creators to establish their unique social identities and reputations on-chain, building trust and signaling quality across the creative community.
+
+## Anonymous Voting via ZK-SNARKs
+Leveraging zero-knowledge proofs, users can securely vote on content without publicly exposing their preferences. This enables consensus while protecting privacy.
+
+By leveraging Lit Protocol and CyberConnect, magipop pioneers a new paradigm of collaborative creativity powered by social reputation and community curation.
+
+## **Synergy & Contribution**
+1. magipop fills the gap in Passion Economy and creator spaces, providing unique value.
+2. magipop brings diverse creators into the ecosystem, expanding and enriching the community.
+3. Positive Tokenomics enable creators to earn income beyond speculators, moving beyond Ponzi models towards real utility.
+4. magipop utilizes Lit Protocol's storage and CyberConnect's identity system to integrate AI models for collaborative creativity.
+5. By focusing on niche passion communities, magipop attracts dedicated and engaged users, increasing Protocol activity. 
+6. magipop's transparent approach showcases blockchain strengths to onboard mainstream consumers.
+7. As an innovative co-creation model, magipop demonstrates how Lit Protocol and CyberConnect enable next-gen community applications.
+
+## One-liner
 Al fused co-creation tool for community, forging large-scale creativity into evolving stories.
-# Description
+## Problem to be solved
 In large-scale creative collaborations, it often becomes confusing, like those cluttered group chats, forums, posts
 We want to find a way to aggregate large-scale ideas, but at the same time keep it structured, so that everyone who wants to participate can quickly get the big picture and the details needed to move forward on the same consensus.
 Creathon is a platform where fans can collaboratively work on and showcase narrative projects on topics they're passionate about.
 
-# Innovations
-## Co-creation Event: ZK Privacy
+## Key structure design
+### Co-creation Event: ZK Privacy
 This contract is the cornerstone of our pioneering privacy system. With the assurance of zk-SNARK and autonomous Web3 infrastructure, users on Creathon can experience end-to-end privacy protection.
 - Proof of Creation: Using zk technology, users can submit their creations and affirm their validity without revealing any content.
 - Inspiration Proof: Harnessing zk-SNARK and Magiry.AI, users can verify the uniqueness of their inspirations without disclosing specific content. Concurrently, they can publicize their inspirations to motivate others.
 - Double-blind Voting: Leveraging zk's one-way function, users can confirm the authenticity of their votes without exposing their actions.
 We trust that while zk is the foundation of privacy, it also serves as a vital bridge to consensus.
-## Copyright market: autonomous Network
-magipop Creathon hopes to leverage Linear’s excellent seamless Wasm-VM scalability, secure Web3 infrastructure and rich ecosystem. Elevate the creative creator experience in magipop and the Linear ecosystem, driving a win-win situation of innovation and collaborative scale growth.
-## Idea tracking by LLM
-What truly distinguishes us is our creative AI assistant. Through the "detail_of" method, Creathon app seamlessly integrates diverse ideas from various creators, presenting them in a structured map. This approach makes collaborative creation feel like piecing together a story using LEGO. The Creathon map offers a unique space for creators to collaborate on fan-fiction storylines, all under a shared worldview. As a user contributes an idea, our AI analyzes it and positions it on the map, connecting it with other related ideas from different creators.
-meanwhile, Our "Creathon" turns this collaborative process into a playful competition. Here, creators engage in exciting challenges, and their creations are showcased on a map, highlighting the interconnections. This layout allows for an easy overview while also providing detailed insights when needed.
-## magipop Data Chain
-The magipop Map Contract lies at the core of Creathon's unique creative-linking system. By seamlessly integrating the capabilities of blockchain, AI, and collective creativity, we initiate our system with a distinctive contract hash. This sets a secure and transparent foundation for all operations. Capitalizing on the efficiency of layer 2, we ensure that all crucial data is securely stored on-chain, thus safeguarding every creator's contributions. Moreover, the contract serves as a bridge, connecting creators with their innovative concepts. With built-in functions like "post" and "detail_of", creators have the flexibility to share their ideas and retrieve them when needed. This design promotes a lively environment where ideas flow naturally and collaborations emerge effortlessly.
+## Decentralized Network via Lit Protocol
+magipop Creathon leverages Lit Protocol's excellent seamless p2p network capabilities, secure Web3 infrastructure and robust ecosystem. This elevates the decentralized creative experience, driving innovation and collaborative growth.
+### Idea tracking with LLM 
+What distinguishes us is our creative AI assistant. The "detail_of" method integrates diverse ideas from creators into a structured map. This Lego-like approach enables collaborative creation under a shared worldview. As a user contributes an idea, our AI analyzes and connects it with related ideas.
+
+Meanwhile, "Creathon" gamifies this process into an exciting competition. Creations are showcased on a map, highlighting interconnections for easy overview and detailed insights.
+### magipop Data Chain
+The magipop Map Contract utilizes Lit Protocol's distributed capabilities, AI, and collective creativity. By initiating with a unique contract hash, we enable a secure and transparent foundation for operations. Leveraging efficiency of Lit Protocol, we ensure crucial data is stored on IPFS, safeguarding creator contributions. The contract connects creators with concepts using functions like "post" and "detail_of". This promotes an organic flow of ideas and natural collaborations.
 ## Contact us
 Race Li
 Telegram @RaceLi
