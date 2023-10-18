@@ -1,5 +1,4 @@
 # Proof of creativity with magipop Creathon
-Dorahacks: https://dorahacks.io/buidl/7678
 Github repo: https://github.com/DocRace/magipop-creathon-identity
 Pitch video: https://youtu.be/-BlsEQ0HAjg
 Demo website: https://magipop.xyz/forge/
@@ -64,10 +63,10 @@ Telegram @RaceLi
 Twitter @melitosnap
 Email callmerace@hotmail.com
 
-![demoimage](/Tracks/Web3Blockchain/magipop-creathon/demo-images/1.png)
-![demoimage](/Tracks/Web3Blockchain/magipop-creathon/demo-images/2.png)
-![demoimage](/Tracks/Web3Blockchain/magipop-creathon/demo-images/3.png)
-![demoimage](/Tracks/Web3Blockchain/magipop-creathon/demo-images/4.png)
-![demoimage](/Tracks/Web3Blockchain/magipop-creathon/demo-images/5.png)
-![demoimage](/Tracks/Web3Blockchain/magipop-creathon/demo-images/6.png)
-![demoimage](/Tracks/Web3Blockchain/magipop-creathon/demo-images/7.png)
+![demoimage](/demo-images/1.png)
+![demoimage](/demo-images/2.png)
+![demoimage](/demo-images/3.png)
+![demoimage](/demo-images/4.png)
+![demoimage](/demo-images/5.png)
+![demoimage](/demo-images/6.png)
+![demoimage](/demo-images/7.png)
